@@ -1,0 +1,31 @@
+void compraentradas()
+{
+	int sala;
+	char hora;
+	int descuento;
+	int preciofinal;
+	do{
+	cartelera("cartelera.txt");
+	printf("\nindique la sala de la pelicula que desea ver (1, 2, 3)\n");//eleccion de la sala
+	scanf("%i", &sala);		
+	}
+	while(sala!=1 && sala!=2 && sala!=3);
+	do{
+	printf("\nindique el horario (a, b, c)\n");//eleccion de la sala
+	scanf("%c", &hora);}
+	while(hora!='a' && hora!='b' && hora!='c');
+	
+	printf("Elige el descuento\n 1.FAMILIA NUMEROSA\N 2.ESTUDIANTE\N ");
+	scanf("%i",&descuento);
+	switch(descuento){
+		case 1:
+		preciofinal= 7*0.2;
+		
+	break;
+		case 2:
+		preciofinal= 7*0.1;
+		
+	break;
+	}
+	printf=("El precio final es %d",&preciofinal);	
+}
