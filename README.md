@@ -19,8 +19,10 @@ David, Almarza Gonzales, dalmarzag
 
 * **Realizacion de un menu en el que nos permita iniciar sesión.** 
 
-* **Utilizar ficheros para almacenar la informacion sobre las salas y las posibles ofertas por membresia.**
+* **Utilizar vectores de funciones para almacenar la informacion sobre las salas.**
 
 * **utilizar funciones para llevar a cabo el pago y los descuentos.**
 
-* **Utilizar diferentes librerias como math.h para llevar a cabo las operaciones.**
+* **utilizar ficheros para almacenar los tickets de compra.**
+
+* **Hacer un buen uso de los defines para que al modificar sus valores el programa siga funcionando perfectamente.**
